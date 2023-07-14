@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    background-color: #2148C0;
+    height: 100vh;
+    background-image: url("BG.svg");
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.user-logo{
+    position: absolute;
+    padding-right: 11rem;
+    top: 5px;
+}
+.user{
+    display: flex;
+    position: relative;
+    justify-content: center; 
+    margin-bottom: 15px;
+}
+.user-input{
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    outline: none;
+    padding :0.5rem 0rem 0.5rem 3rem;
+}
+.pass-logo{
+    position: absolute;
+    padding-right: 11rem;
+    top: 5px;
+}
+.password{
+    display: flex;
+    position: relative;
+    justify-content: center; 
+}
+.pass-input{
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    outline: none;
+    padding :0.5rem 0rem 0.5rem 3rem;
+}
+::placeholder{
+    color:white;
+    opacity: 0.7;
+}
+.btn{
+    display: flex;
+    justify-content: center; 
+    padding: 2rem 0rem 0rem 0rem;
+}
+.login-btn{
+    color: #2148C0;
+    border: 1px solid #2148C0;
+    padding: 0.5rem 6.1rem;
+    border-radius: 4px;
+    outline: none;
+}
+p{
+    text-align: center;
+    color: white;
+    padding-left: 6.9rem;
+}
